@@ -29,7 +29,7 @@ const server = app.listen(PORT, console.log(`Server running on PORT ${PORT}`));
 const io = new Server(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://chats-app-by-ds.netlify.app/",
+    origin: "https://chats-app-by-ds.netlify.app",
   },
 });
 
